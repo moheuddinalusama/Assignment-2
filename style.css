@@ -310,6 +310,64 @@ padding-top: 120px;
     border-radius: 40px;
 }
 
+.Featured{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.card{
+    width: 380px;
+    height: 440px;
+   
+    box-sizing: border-box;
+    
+}
+.card iframe{
+    border-radius: 24px 24px 0px 0px;
+    width: 380px;
+    height: 214px;
+}
+
+.Featured-text{
+padding: 24px;
+background-color: #250D44;
+border-radius: 0px 0px 24px 24px;
+}
+.Featured-container h1{
+     color:#ffffff ;
+font-size:3.75rem ;
+font-weight:700 ;
+text-align: center;
+padding-top: 120px;
+padding-bottom: 40px;
+}
+.card h2{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.Future p{
+    color: #c5c5c5;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.min p{
+    color: #00FF88;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+
+
+
+
+
  @media screen and (max-width:576px) {
 
     .nav-link,
@@ -394,9 +452,19 @@ padding-top: 120px;
    padding-top: 40px;
     font-size:2.025rem;
 }
+.Featured{
+  
+align-items: center;
+   flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
 
 }
-
+.Featured-container h1{
+    padding: 40px 20px 16px 20px;
+    font-size: 2rem;
+}
+ }
 @media screen and (min-width:577px) and (max-width:992px) {
     .hero-section {
         background-repeat: no-repeat;
@@ -446,6 +514,6 @@ padding-top: 120px;
         gap: 30px;
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
-       
+       margin: 0 auto;
     }
 }
