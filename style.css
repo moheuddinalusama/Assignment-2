@@ -512,8 +512,8 @@ padding-top: 120px;
         width: 150px;
         height: 150px;
         position: absolute;
-        top: -10px;
-        left: 27%;
+        top: 10px;
+        left: 35%;
 
     }
 
@@ -526,7 +526,7 @@ padding-top: 120px;
 
     .new button{
         position: relative;
-        top:0px;
+        top:5px;
         left: 50%;
         width: 60px;
         height: 30px;
