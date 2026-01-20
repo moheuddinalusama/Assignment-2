@@ -607,9 +607,8 @@ align-items: center;
     margin-top: 40px;
      background-size: cover;
    background-image: url(images/footer.png);
-max-width:  440px;
-max-height:248px ;
-
+    max-height:248px ;
+        width: 100%;
 }
 .footer-container h1{
 padding-top: 40px;
