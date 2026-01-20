@@ -31,6 +31,46 @@ body {
 
 /* navber style */
 
+ .btn:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.Spotify:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.Subscribe:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+/* animation */
+.hero-circle{
+animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    form{transform: rotate(0deg);
+    }
+ to{transform: rotate(360deg);
+    }
+    
+}
+.microphone{
+animation: pulse 1.5s  infinite;
+}
+@keyframes pulse {
+    0% {transform: scale(1);
+    }
+    50% {transform: scale(1.08);
+    }
+    100% {transform: scale(1);
+    }
+}
+
+/* animation */
+
+/* navber style */
+
 
 .navbar {
     display: flex;
@@ -102,15 +142,14 @@ a {
     margin-top: 101px;
 }
 
-.hero-circle {
+.hero-circle{
     width: 350px;
     height: 350px;
     position: absolute;
     top: 65px;
     left: 580px;
-
+  
 }
-
 .microphone {
     position: absolute;
     top: 145px;
@@ -405,7 +444,49 @@ padding-bottom: 40px;
     list-style: none;
 }
 
+.footer-container{
+    text-align: center;
+}
 
+
+.footer-container{
+    margin-top: 120px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+   max-width: 1600px;
+   height: 412px;
+   background-size: contain;
+}
+.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    width: 655px;
+    margin: 0 auto;
+    gap: 20px;
+  
+}
+.footer-container h1{
+    color:#ffffff ;
+font-size:3.75rem ;
+font-weight:700 ;
+text-align: center;
+padding-top: 120px;
+
+}
+.footer-container p{
+    text-align: center;
+    color: #c5c5c5;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.footer-text{
+    margin-top: 30px;
+    text-align: center;
+ 
+}
 
  @media screen and (max-width:576px) {
 
@@ -414,7 +495,7 @@ padding-bottom: 40px;
         display: none;
     }
 
-    .bar {
+    .bar{
         color: #ffffff;
         justify-content: space-between;
         display: inline-block;
@@ -464,7 +545,7 @@ padding-bottom: 40px;
         padding: 20px;
     }
 
-    .wark {
+    .wark{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 40px;
         row-gap: 40px;
@@ -508,7 +589,27 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-radius: 24px;
+    margin: 20px;
 }
+
+.footer-icons{
+  grid-template-columns: repeat(2,155px);
+  justify-content: center;
+  max-width: 90%;
+}
+.footer-container{
+    margin-top: 40px;
+     background-size: cover;
+   background-image: url(images/footer.png);
+max-width:  440px;
+max-height:248px ;
+
+}
+.footer-container h1{
+padding-top: 40px;
+}
+
  }
 
 
