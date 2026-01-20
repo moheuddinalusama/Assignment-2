@@ -542,11 +542,14 @@ padding-top: 120px;
         margin-top: 145px;
     }
 
-    .About {
+    .About{
         margin-top: 40px;
         padding: 20px;
     }
-
+     .About h1{
+        font-size: 2rem;
+        margin-top: 10px;
+        }
     .wark{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 40px;
